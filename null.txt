@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "c:\Users\PAVILION\Desktop\Coding\SmartHead\main.py", line 20, in <module>
+    main()
+  File "c:\Users\PAVILION\Desktop\Coding\SmartHead\main.py", line 17, in main
+    object_detector.start()
+  File "c:\Users\PAVILION\Desktop\Coding\SmartHead\object_detection.py", line 72, in start
+    processed_frame = self.process_frame(frame)
+  File "c:\Users\PAVILION\Desktop\Coding\SmartHead\object_detection.py", line 38, in process_frame
+    scores = obj[5:]
+IndexError: invalid index to scalar variable.
